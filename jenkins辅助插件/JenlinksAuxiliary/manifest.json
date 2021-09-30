@@ -17,7 +17,7 @@
 	"content_scripts": 
 	[
 		{
-			"matches": ["http://192.168.3.239:8081/*", "http://192.168.8.78:8081/*"],
+			"matches": ["http://*/*"],
 			"js": ["content-script.js"],
 			"css": ["content-css.css"]
 		}
